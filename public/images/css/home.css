@@ -13,8 +13,8 @@
   padding: 20px 0 14px;
   width: 1320px;
   height: auto;
-
-  /* background-color: red;*/
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar_frame .container .navbar_top {
@@ -24,8 +24,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
-  /*background-color: greenyellow;*/
 }
 .navbar_top .nav_search_frame {
   width: 651px;
@@ -233,4 +231,204 @@
 }
 .sorting_menu span:hover {
   color: rgb(236, 174, 31);
+}
+.home_page {
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.header_frame {
+  position: relative;
+  margin-top: 47px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.header_frame .container {
+  flex-direction: row;
+}
+.header_frame  .container .header_left {
+  position: relative;
+  padding: 15px;
+  width: 875px;
+  height: 508px;
+  background-color: #0053f6;
+  background-image: url("../icons/header_bg.svg");
+  border-radius: 5px;
+}
+.header_frame .header_left .header_content {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+}
+.header_frame .header_content div {
+  width: 104px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f5c34b;
+  border-radius: 6px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  color: #041e42;
+}
+.header_frame .header_content span {
+  margin-top: 10px;
+  width: 428px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 87px;
+  color: #fff;
+}
+.header_frame .header_content p {
+  margin-top: 10px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+}
+.header_frame .header_content a {
+  margin-top: 20px;
+  width: 140px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+
+  font-family: "Jost";
+  font-style: normal;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #041e42;
+  background-color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header_frame .header_content img {
+  position: absolute;
+  right: 10px;
+}
+.header_frame .container .header_right {
+  position: relative;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+.header_frame .header_right {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.header_frame .header_right .header_box {
+  width: 424px;
+  height: 242px;
+  background: #f3f3f3;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.header_frame .header_right .box_left {
+  width: 220px; /* 50px emas */
+  margin-left: 0;
+}
+
+.header_frame .box_left span {
+  display: block;
+  color: #0053f6;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.header_frame .box_left p {
+  margin: 12px 0;
+  font-size: 30px;
+  line-height: 38px;
+  color: #041e42;
+}
+
+.header_frame .box_left a {
+  text-decoration: none;
+  color: #041e42;
+  font-size: 15px;
+}
+
+.header_frame .header_box .box_right {
+  width: 160px; /* 50px emas */
+  height: auto;
+}
+
+.header_frame .box_right img {
+  width: 100%;
+  height: 100%;
+
+}
+.homne_page .service_frame{
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;   
+  justify-content: center;
+
+} 
+.service_frame .container {
+flex-direction: row;
+  margin-left: 300px;
+}
+.container .service_box {
+  width: 25%;
+  height: 86px;
+ display: flex;
+margin-right: 20px;
+flex-direction: row;
+border-bottom: 1px solid #e0e0e0;
+
+}
+.service_box img{
+  width: 35px;
+  height: 35px;
+}
+.service_box .service_content{
+  margin-left: 14px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.service_content span{
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #041e42;
+}
+.service_content p{
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #626974;
 }
